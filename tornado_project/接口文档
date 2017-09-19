@@ -1,0 +1,18 @@
+
+
+
+
+
+
+2.  接口:/api/smscode
+    传入参数:pic_code_id, pic_code, mobile
+    参数          type    是否必须
+    pic_code_id    str      是
+    pic_code       str      是
+    mobile         str      是
+
+    传入方式: post
+    传入类型: Content-Type:JSON/application,
+
+    返回数据: err_no, err_msg
+
